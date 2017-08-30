@@ -8,5 +8,4 @@ class Passport(models.Model):
     username = models.CharField(max_length=20)
     passpowd = models.CharField(max_length=40)
 
-    def __str__(self):
-        return "%s" % self.pk
+
